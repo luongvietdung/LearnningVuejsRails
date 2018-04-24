@@ -1,11 +1,11 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import Hello from '../components/Hello';
+import Home from '../pages/Home';
 
 Vue.use(VueRouter);
 
 const routes = [
-  {path: '/', name: 'Hello', component: Hello},
+  {path: '/', name: 'Home', component: Home},
 ];
 
 export default new VueRouter({

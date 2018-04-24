@@ -1,12 +1,12 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
-import Hello from '../store/Hello';
+import product from './product'
 
 Vue.use(Vuex);
 
 const store = new Vuex.Store({
   modules: {
-    Hello,
+    product
   },
 });
 
